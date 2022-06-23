@@ -1,0 +1,42 @@
+{
+  "name": "sql-prisma-api-rest-template",
+  "version": "1.0.0",
+  "description": "A template for create a fast api rest with prisma, express and typescript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "prettier:fix": "prettier --write src/**/*.ts",
+    "planetscale:push": "prisma db push",
+    "prisma:types": "prisma generate",
+    "build": "rimraf server && tsc --build --verbose"
+  },
+  "keywords": [
+    "server-template"
+  ],
+  "author": "IsaacZM",
+  "license": "MIT",
+  "prettier": "prettier-config-standard",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/glob": "^7.2.0",
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "prettier": "^2.7.1",
+    "prettier-config-standard": "^5.0.0",
+    "prisma": "^3.15.2",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.15.2",
+    "express": "^4.18.1",
+    "glob": "^8.0.3",
+    "kleur": "^4.1.4",
+    "uuid-apikey": "^1.5.3"
+  }
+}
