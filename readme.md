@@ -8,7 +8,7 @@
   <p align="center">
       A Template of server made with typescript, express and prisma
       <br />
-      <a href="https://github.com/o-isaac/template-series-express"><strong>Install »</strong></a>
+      <a href="https://github.com/o-isaac/template-series-express#getting-started"><strong>Getting Started »</strong></a>
       <br />
       <br />
       <a href="https://github.com/o-isaac/template-series-express">View Demo</a>
