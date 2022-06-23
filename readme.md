@@ -11,11 +11,10 @@
       <a href="https://github.com/o-isaac/template-series-express#getting-started"><strong>Getting Started »</strong></a>
       <br />
       <br />
-      <a href="https://github.com/o-isaac/template-series-express">View Demo</a>
-      ·
       <a href="https://github.com/o-isaac/template-series-express/issues">Report Bug</a>
       ·
       <a href="https://github.com/o-isaac/template-series-express/issues">Request Feature</a>
+
   </p>
 </div>
 
