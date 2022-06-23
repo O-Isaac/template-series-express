@@ -126,7 +126,7 @@ npm run litn
 
 ## Roadmap
 
-- [ ] Add watcher to rebuild code!
+- [x] Add watcher to rebuild code!
 - [ ] Add system Auth
 
 See the [open issues](https://github.com/o-isaac/template-series-express/issues) for a full list of proposed features (and known issues).

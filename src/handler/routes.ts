@@ -8,7 +8,11 @@ const prefix = kleur.bold().green('[ROUTER]')
 export default async function loadRoutes(app: Express): Promise<boolean> {
   console.log(prefix, 'Loading routers....')
 
-  glob('server/routes/**/*.{ts,js}', (err, matches) => {
+  const pathRoutes = process.env.TS_NODE_DEV
+    ? 'src/routes/**/*.{ts,js}'
+    : 'server/routes/**/*.{ts,js}'
+
+  glob(pathRoutes, (err, matches) => {
     if (err) {
       return console.log(prefix, kleur.red(err?.message || 'Unknow error!'))
     }
